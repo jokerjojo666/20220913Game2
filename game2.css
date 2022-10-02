@@ -1,0 +1,22 @@
+:root{
+    --bound:123px;
+}
+
+body {
+    background-color: rgba(255, 94, 100, 0.5);
+    color: #FF3864;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#box {
+    width: var(--bound);
+    height: var(--bound);
+    background-color: red;
+    display: none;
+    position: relative;
+}
+
+
